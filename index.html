@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Events | JAVASCRIPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Chapter 43-48 -->
+    <!-- Events | JAVASCRIPT -->
+
+    <!-- // 1. Show an alert box on click on a link. -->
+    <a href="#" onclick="alert('Link clicked!'); return false;">
+        Click me
+    </a>
+
+    <!-- 2. Display some Mobile images in browser. On click on an image Show the message in alert to user. -->
+    <h2>Click on a mobile image</h2>
+
+    <img src="img1.jpeg" alt="Phone 1" onclick="alert('You clicked on Phone 1')">
+    <img src="img2.jpeg" alt="Phone 2" onclick="alert('You clicked on Phone 2')">
+    <img src="img3.png" alt="Phone 3" onclick="alert('You clicked on Phone 3')">
+
+    <!-- // 3. Display 10 student records in table and each row should contain a delete button. If you click on a button to delete a record, entire row should be deleted. -->
+<h2 style="text-align:center;">Student Records</h2>
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>Index</th>
+        <th>Name</th>
+        <th>Course</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+    </tbody>
+  </table>
+
+  <h2>Hover over the image</h2>
+
+  <img id="myImage"src="flowerimg.jpeg" alt="First Image">
+
+
+
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
